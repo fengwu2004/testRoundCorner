@@ -29,66 +29,87 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m8-ID-VX0">
-                                        <rect key="frame" x="25" y="61.5" width="60" height="30"/>
+                                        <rect key="frame" x="25" y="46" width="60" height="30"/>
                                         <state key="normal" title="webview"/>
                                         <connections>
                                             <segue destination="giR-QQ-V7L" kind="show" id="wAw-fg-Vs8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djr-R5-e9y">
-                                        <rect key="frame" x="0.0" y="123" width="110" height="30"/>
+                                        <rect key="frame" x="0.0" y="92" width="110" height="30"/>
                                         <state key="normal" title="测试Autoreleasepool"/>
                                         <connections>
                                             <segue destination="4Nn-bG-AED" kind="show" id="Qt4-4N-qys"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIf-LU-vt3" userLabel="Hello">
-                                        <rect key="frame" x="25" y="184.5" width="60" height="30"/>
+                                        <rect key="frame" x="25" y="138.5" width="60" height="30"/>
                                         <state key="normal" title="测试URL"/>
                                         <connections>
                                             <segue destination="fKq-1m-h23" kind="show" id="rkB-ln-gY9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yah-td-Kkc">
-                                        <rect key="frame" x="24" y="246" width="62" height="30"/>
+                                        <rect key="frame" x="24" y="184.5" width="62" height="30"/>
                                         <state key="normal" title="圆角测试"/>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="Mh1-bc-vYC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8l-If-m0E">
-                                        <rect key="frame" x="0.0" y="307" width="110" height="30"/>
+                                        <rect key="frame" x="0.0" y="230.5" width="110" height="30"/>
                                         <state key="normal" title="progressbar测试"/>
                                         <connections>
                                             <segue destination="sMr-dc-xrU" kind="show" id="kAl-wF-EXq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfE-1Q-aLZ">
-                                        <rect key="frame" x="24" y="368.5" width="62" height="30"/>
+                                        <rect key="frame" x="24" y="276.5" width="62" height="30"/>
                                         <state key="normal" title="显示动画"/>
                                         <connections>
                                             <segue destination="4ou-ms-ABm" kind="show" id="rHv-6i-oAs"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6X-tc-Kdh" userLabel="测试collectionView">
-                                        <rect key="frame" x="0.0" y="430" width="110" height="30"/>
+                                        <rect key="frame" x="0.0" y="322.5" width="110" height="30"/>
                                         <state key="normal" title="测试collectionView"/>
                                         <connections>
                                             <segue destination="Jsn-iP-o5X" kind="show" id="PJ8-xr-Cxe"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfZ-Ef-xqf">
-                                        <rect key="frame" x="24" y="491.5" width="62" height="30"/>
+                                        <rect key="frame" x="24" y="368.5" width="62" height="30"/>
                                         <state key="normal" title="测试KVO"/>
                                         <connections>
                                             <segue destination="Xrc-Pk-Dk4" kind="show" id="LXY-iq-JOy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujX-PN-Y7a" userLabel="测试Scrollview">
-                                        <rect key="frame" x="5.5" y="553" width="99" height="30"/>
+                                        <rect key="frame" x="5.5" y="415" width="99" height="30"/>
                                         <state key="normal" title="测试scrollview"/>
                                         <connections>
                                             <segue destination="3Pq-5i-8CU" kind="show" id="19n-43-keL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ib3-Fh-scA">
+                                        <rect key="frame" x="12.5" y="461" width="85" height="30"/>
+                                        <state key="normal" title="PageControl"/>
+                                        <connections>
+                                            <segue destination="57B-78-SiK" kind="show" id="YkG-Iz-ga5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwO-Lw-cU0">
+                                        <rect key="frame" x="0.5" y="507" width="109" height="30"/>
+                                        <state key="normal" title="测试 MJRefresh"/>
+                                        <connections>
+                                            <segue destination="jrq-hR-oM7" kind="show" id="bcM-f4-teX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLW-4u-qtJ">
+                                        <rect key="frame" x="0.0" y="553" width="110" height="30"/>
+                                        <state key="normal" title="测试多个ScrollView"/>
+                                        <connections>
+                                            <segue destination="xKm-ir-Pcx" kind="show" id="RfD-hP-wBx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -293,6 +314,39 @@
             </objects>
             <point key="canvasLocation" x="1034" y="-267"/>
         </scene>
+        <!--Test Page View Controller-->
+        <scene sceneID="gOH-Nu-fAp">
+            <objects>
+                <viewController id="57B-78-SiK" customClass="TestPageViewController" customModule="testRoundCorner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S3L-RA-dSg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-2a-WrM">
+                                <rect key="frame" x="168" y="315.5" width="39" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="DQc-SE-SUl"/>
+                                    <constraint firstAttribute="height" constant="100" id="cPF-EA-pv3"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="onPageChange:" destination="57B-78-SiK" eventType="touchUpInside" id="yAf-L9-2ej"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X4h-2a-WrM" firstAttribute="centerX" secondItem="RnN-fj-3nk" secondAttribute="centerX" id="KAM-IL-QLw"/>
+                            <constraint firstItem="X4h-2a-WrM" firstAttribute="centerY" secondItem="RnN-fj-3nk" secondAttribute="centerY" id="zVj-qu-ScS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RnN-fj-3nk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72E-Z7-Zt3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2741.5999999999999" y="-1066.4167916041979"/>
+        </scene>
         <!--Test Scroll View View Controller-->
         <scene sceneID="SiG-20-8AU">
             <objects>
@@ -443,6 +497,102 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rja-yO-nCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2356" y="480.80959520239884"/>
+        </scene>
+        <!--Test Scroll Hit Test View Controller-->
+        <scene sceneID="cGU-tO-W84">
+            <objects>
+                <viewController id="xKm-ir-Pcx" customClass="TestScrollHitTestViewController" customModule="testRoundCorner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KEw-kS-fnh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OdC-Xu-oyg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DpS-zn-yiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3456" y="501"/>
+        </scene>
+        <!--TestMJ Refresh View Controller-->
+        <scene sceneID="GS4-cE-fds">
+            <objects>
+                <viewController id="jrq-hR-oM7" customClass="TestMJRefreshViewController" customModule="testRoundCorner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2QZ-1h-chI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W5M-zu-bvn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vKm-3a-SdT">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="603"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="l0d-zb-0Yb"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="jrq-hR-oM7" id="zCa-sR-qqM"/>
+                                            <outlet property="delegate" destination="jrq-hR-oM7" id="tos-jl-Cr0"/>
+                                        </connections>
+                                    </tableView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyk-hQ-eAs">
+                                        <rect key="frame" x="100" y="0.0" width="275" height="603"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nHG-tC-ZK9">
+                                                <rect key="frame" x="0.0" y="0.0" width="550" height="603"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="550" id="wQx-Ov-kJb"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="jrq-hR-oM7" id="mZJ-rT-blV"/>
+                                                    <outlet property="delegate" destination="jrq-hR-oM7" id="Nyi-of-f9Y"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="nHG-tC-ZK9" firstAttribute="top" secondItem="zyk-hQ-eAs" secondAttribute="top" id="05o-I3-Ksf"/>
+                                            <constraint firstAttribute="width" constant="275" id="AKU-HK-Ysc"/>
+                                            <constraint firstItem="nHG-tC-ZK9" firstAttribute="height" secondItem="zyk-hQ-eAs" secondAttribute="height" id="MNq-CT-gdH"/>
+                                            <constraint firstItem="nHG-tC-ZK9" firstAttribute="leading" secondItem="zyk-hQ-eAs" secondAttribute="leading" id="RZR-Mq-w7F"/>
+                                            <constraint firstAttribute="trailing" secondItem="nHG-tC-ZK9" secondAttribute="trailing" id="cof-An-gwk"/>
+                                            <constraint firstAttribute="bottom" secondItem="nHG-tC-ZK9" secondAttribute="bottom" id="dnx-xV-DE4"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zyk-hQ-eAs" firstAttribute="top" secondItem="W5M-zu-bvn" secondAttribute="top" id="4ji-Om-iDJ"/>
+                                    <constraint firstItem="zyk-hQ-eAs" firstAttribute="leading" secondItem="vKm-3a-SdT" secondAttribute="trailing" id="J9R-1q-6lf"/>
+                                    <constraint firstAttribute="trailing" secondItem="zyk-hQ-eAs" secondAttribute="trailing" id="aFf-hD-kHm"/>
+                                    <constraint firstItem="vKm-3a-SdT" firstAttribute="height" secondItem="W5M-zu-bvn" secondAttribute="height" id="gCn-2S-NiC"/>
+                                    <constraint firstAttribute="bottom" secondItem="vKm-3a-SdT" secondAttribute="bottom" id="gQK-bd-2NV"/>
+                                    <constraint firstAttribute="bottom" secondItem="zyk-hQ-eAs" secondAttribute="bottom" id="iaT-ay-BHr"/>
+                                    <constraint firstItem="vKm-3a-SdT" firstAttribute="leading" secondItem="W5M-zu-bvn" secondAttribute="leading" id="jep-BL-yuV"/>
+                                    <constraint firstItem="vKm-3a-SdT" firstAttribute="top" secondItem="W5M-zu-bvn" secondAttribute="top" id="kTF-le-7gI"/>
+                                    <constraint firstItem="zyk-hQ-eAs" firstAttribute="height" secondItem="W5M-zu-bvn" secondAttribute="height" id="lgA-5t-KLD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sg9-7I-Geg" firstAttribute="trailing" secondItem="W5M-zu-bvn" secondAttribute="trailing" id="4g6-RZ-QNN"/>
+                            <constraint firstItem="W5M-zu-bvn" firstAttribute="top" secondItem="Sg9-7I-Geg" secondAttribute="top" id="E2g-QK-cWY"/>
+                            <constraint firstItem="W5M-zu-bvn" firstAttribute="leading" secondItem="Sg9-7I-Geg" secondAttribute="leading" id="VJv-e6-XHN"/>
+                            <constraint firstItem="Sg9-7I-Geg" firstAttribute="bottom" secondItem="W5M-zu-bvn" secondAttribute="bottom" id="dUE-1D-wzp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sg9-7I-Geg"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgScrollView" destination="W5M-zu-bvn" id="m1N-QY-cOH"/>
+                        <outlet property="detailTableView" destination="nHG-tC-ZK9" id="b3e-td-ozc"/>
+                        <outlet property="nameTableView" destination="vKm-3a-SdT" id="DRw-fh-M4B"/>
+                        <outlet property="rightScrollView" destination="zyk-hQ-eAs" id="yzY-gu-fn1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYh-sR-eGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2356" y="1252.6236881559221"/>
         </scene>
         <!--Test Emplicit Animation View Controller-->
         <scene sceneID="agd-Rx-NaM">
